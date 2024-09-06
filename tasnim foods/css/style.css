@@ -1,0 +1,192 @@
+*{
+    padding: 0; margin: 0; box-sizing: border-box;
+}
+
+html{
+    font-family: 'poppins';
+    font-size: 16px; color: #333;
+}
+header{
+    min-height: 100vh;
+background-image: linear-gradient(  rgba(0, 0, 0, 0.685)  , rgba(0, 0, 0, 0.668)) , url(../images/hero.jpg);
+background-position: center;
+background-size: cover;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo1{
+    height: 100px;
+    margin-top: 20px;
+
+}
+.main-nav{
+    display: flex;
+    list-style: none;
+    
+}
+.main-nav li{
+    margin: 0 15px;
+}
+.main-nav li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+}
+.main-nav li a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+.header-box{
+    position: absolute;
+    top: 50%; 
+}
+h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.btn{
+    border: 1px solid orange;
+    border-radius: 25px;
+    margin: 0 15px;
+    padding: 10px 15px;
+   text-decoration: none;
+    color: orange;
+
+}
+.btn:hover{
+ background-color: orange;
+ color: antiquewhite;
+}
+section{
+    padding:40px 0px ;
+}
+h2{
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-align: center;
+    
+}
+hr{
+    border: 1px solid orange;
+    width: 100px;
+    margin: 30px auto;
+}
+.feat-desc{
+    width: 70%;
+    margin: 30px auto;
+}
+.feat i{
+    color: orange;
+    font-size: 1.5rem;
+    
+}
+.feat h3{
+    font-weight: 300;
+    margin: 10px 0;
+}
+.feat p{
+    line-height: 150%;
+}
+
+.meal{
+    padding: 0px;
+    margin-bottom: -6px;
+    background-color: black;
+    overflow: hidden;
+}
+.meal img{ 
+    width: 100%;
+    opacity: 0.7;
+    transform: scale(1.1);
+   
+}
+.meal img:hover{ 
+    transform: scale(1);
+    transition: 1s;
+    opacity: 1;
+
+}
+.city img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+h3{
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+.city p{
+    margin: 10px;
+    
+}
+.city i{
+    color: orange;
+    margin-right: 10px; 
+}
+.city a{
+    color: orange;
+}
+#testimonials{
+    background-image: linear-gradient(  rgba(0, 0, 0, 0.685)  , rgba(0, 0, 0, 0.668)) , url(../images/back-customers.jpg);
+background-position: center;
+background-size: cover;
+color: white;
+background-attachment: fixed;
+}
+.test img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+.test i{
+    font-size: 50px; 
+    margin: 20px;
+}
+.test p{
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+
+
+ input[type=text], input[type=email], select, textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    
+}
+input[type=checkbox]{
+    margin-bottom: 25px;
+    
+}
+button{
+    border: 0px ;
+    background-color: orange;
+    padding: 10px 20px;
+    margin-bottom: 25px;
+    border-radius: 30px;
+    color: aliceblue;
+    font-size: 16px;
+}
+button:hover{
+    background-color: aliceblue;
+    color: orange;
+    border: 1px solid orange;
+}
